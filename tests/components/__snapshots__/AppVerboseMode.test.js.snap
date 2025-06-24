@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verbose Mode Logic generates consistent snapshots for verbose and non-verbose modes: Non-Verbose Mode Output 1`] = `
+{
+  "contactCount": 2,
+  "detailLevel": "summary",
+  "flagCount": 2,
+  "privateContacts": 1,
+  "publicContacts": 1,
+}
+`;
+
+exports[`Verbose Mode Logic generates consistent snapshots for verbose and non-verbose modes: Verbose Mode Output 1`] = `
+{
+  "contacts": [
+    {
+      "handle": "CONTACT-1",
+      "name": "Public Contact",
+      "visibility": "public",
+    },
+    {
+      "handle": "CONTACT-2",
+      "name": "Private Contact",
+      "visibility": "private",
+    },
+  ],
+  "detailLevel": "full",
+  "flags": [
+    "serverDeleteProhibited",
+    "serverTransferProhibited",
+  ],
+}
+`;
