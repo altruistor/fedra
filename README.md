@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # neviditelna-univerzita
 
 The project was implemented according to the technical specification provided by CZ.NIC z. s. p. o. – Javascript task, specifically:
@@ -40,7 +39,3 @@ The project was implemented according to the technical specification provided by
 7. Web page is reasonably responsive – when two columns don‘t fit side by side, they are displayed on top of each other at breakpoint 1080px.
 
 8. Unfortunately, it was not possible to implement PrimeVue styling as originally intended, because the project was initially built using custom styles without a UI library. During the attempt to integrate PrimeVue, significant challenges arose that could not be resolved within a short timeframe. Therefore, it was decided to complete the project using custom styles instead. This, however, did not have a critical impact on the final result or on the display of content in accordance with the technical specification and the provided PNG files.
-=======
-# fedra
-JavaScript task
->>>>>>> 74bd2fe57c49be281cee85b304818f8b1e270e1e
